@@ -1,0 +1,39 @@
+#navbar {
+	width: 170px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: yellow;
+	display: block;
+	padding: 6px 8px 6px 13px;
+}
+#navbar ul {
+	list-style: none;
+}
+
+#main-doc {
+	margin-left: 170px; 
+  	font-size: 20px; 
+  	padding: 0px 10px;
+}
+
+#table1 {
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size: 15px;
+	margin: 2px 2px 2px 2px;
+}
+
+tr, td {
+  padding: 7px;
+  text-align: left;
+}
